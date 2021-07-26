@@ -1,7 +1,7 @@
 import { useSession, signIn } from 'next-auth/client';
 import { useRouter } from 'next/router';
-// import { api } from '../../services/api';
-// import { getStripeJs } from '../../services/stripe-js';
+import { api } from '../../services/api';
+import { getStripeJs } from '../../services/stripe-js';
 import styles from './styles.module.scss';
 
 
@@ -11,11 +11,13 @@ export function SubscribeButton() {
   const router = useRouter()
 
   async function handleSubscribe() {
+    //verificação se o cliente está logado
     if (!session) {
       signIn('github')
       return;
     }
 
+    //Criação da cheockout session
     if (session.activeSubscription) {
       router.push('/posts');
       return;
