@@ -57,7 +57,7 @@ export default NextAuth({
     },
     async signIn(user, account, profile) {
       const { email } = user
-      console.log(user)
+      // console.log(user)
 
       const createUser = q
         .Create(
