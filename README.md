@@ -1,4 +1,9 @@
-# Ignite Next.Js
+<h1 align="center"> 
+Ignews ✨
+
+Projeto desenvolvido durante o curso Ignite da Rocketseat.
+</h1>
+
 
   ![Página Principal](https://github.com/leokattah/igNews/blob/main/public/images/ignews.png)  
 
