@@ -1,10 +1,10 @@
 # Ignite Next.Js
 
-  ![Página Principal](./public/home.png)  
+  ![Página Principal](https://github.com/leokattah/igNews/blob/main/public/images/ignews.png)  
 
   ---
 
-  ![Página Principal](./public/posts.png)
+  ![Página Principal](https://github.com/leokattah/igNews/blob/main/public/images/ignews.png)
 
 ### Sobre
 
