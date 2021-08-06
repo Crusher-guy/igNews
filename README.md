@@ -4,7 +4,7 @@
 
   ---
 
-  ![Página Principal](https://github.com/leokattah/igNews/blob/main/public/images/ignews.png)
+  ![Página Principal](https://github.com/leokattah/igNews/blob/main/public/images/ignews_post.png)
 
 ### Sobre
 
