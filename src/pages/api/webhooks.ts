@@ -3,7 +3,7 @@ import { Readable } from 'stream'
 import Stripe from 'stripe';
 
 import {stripe} from "../../services/stripe";
-import { saveSubscription } from "../_lib/manageSubscription";
+import { saveSubscription } from "./_lib/manageSubscription";
 
 async function buffer(readable: Readable) {
   const chunks = [];
